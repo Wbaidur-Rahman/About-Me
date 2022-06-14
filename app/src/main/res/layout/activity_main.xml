@@ -25,6 +25,28 @@
          android:inputType="textPersonName"
          android:textAlignment="center" />
 
+     <Button
+         android:id="@+id/button"
+         style="@style/Widget.AppCompat.Button.Colored"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:fontFamily="@font/roboto"
+         android:paddingLeft="@dimen/padding"
+         android:paddingTop="@dimen/padding"
+         android:paddingEnd="@dimen/padding"
+         android:paddingRight="@dimen/padding"
+         android:text="@string/button"
+         android:textSize="20sp" />
+
+     <TextView
+         android:id="@+id/nickname"
+         style="@style/NameStyle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAlignment="center"
+         android:visibility="gone" />
+
      <ImageView
          android:id="@+id/star_image"
          android:layout_width="match_parent"
